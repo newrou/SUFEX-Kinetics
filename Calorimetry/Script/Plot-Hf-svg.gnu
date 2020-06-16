@@ -28,8 +28,8 @@ set linestyle 8 lt 8 lw 2 lc -1 dashtype 1
 
 set output "r.svg"
 #set xrange [0:60]
-set style line 1 lt 1 lw 3 pt 6 linecolor rgb "black"
-set style line 2 lt 2 lw 3 pt 7 linecolor rgb "black"
+set style line 1 lt 1 lw 2 pt 6 linecolor rgb "black"
+set style line 2 lt 2 lw 2 pt 7 linecolor rgb "black"
 #set key samplen -1 spacing 1.3 font ",26" box lw 0
 set nokey
 plot "r.dat" using (($1)/3600):(1000*($2)) with lines linestyle 2

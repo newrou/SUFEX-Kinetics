@@ -6,7 +6,6 @@ do
     echo "Extract [$name]"
     ../Script/Extract-Plot-Data.py < $name.csv > r.dat
     gnuplot ../Script/Plot-Hf-svg.gnu
-    mv r.dat $name.dat
-    mv r.svg $name.svg
+#    mv r.dat $name.dat
+    mv r.svg ../Plot/All/$name.svg
 done
-
