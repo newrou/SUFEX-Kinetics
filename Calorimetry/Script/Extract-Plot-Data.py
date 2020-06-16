@@ -8,25 +8,38 @@ import csv
 #import numpy as np
 #import pandas as pd
 
-mdat = []
-ndat = 0
+mT = []
+mHf = []
 
 flag = 0
 
 for line in sys.stdin :
 	s = line.rstrip('\r\n')
-	if flag==1 : print s
+	if flag==1 :
+#		print s
+		dat = s.split(',')
+		mT.append(float(dat[0]))
+		mHf.append(float(dat[2]))
 	if 'Signal correct' in s :
 #		dat = list(csv.reader(s, delimiter=' '))
-		dat = s.split(',')
 #		dat = pd.read_csv(s)
-		print dat
+#		print dat
+		dat = s.split(',')
+		mT.append(float(dat[0]))
+		mHf.append(float(dat[2]))
 #		print float(dat[0]), float(dat[2])
-		print s
+#		print s
 		flag = 1
 	if 'Ampoule removed' in s :
+		dat = s.split(',')
+		mT.append(float(dat[0]))
+		mHf.append(float(dat[2]))
 		flag = 0
 
+minHf = min(mHf)
+
+for i in range(len(mT)) :
+	print('%.11f, %.14e' % (mT[i], mHf[i]-minHf ))
 
 #	m = re.findall(r'\@[a-zA-Z-]+\d\d\d\d', s)
 #	m = re.findall(r'\@[a-zA-Z0-9-~+]+', s)
