@@ -1,1 +1,1 @@
-/Oasis/ScienceWork/SUFEX-Kinetics/Calorimetry/Script/Extract-All-dat.sh
+../Script/Extract-All-dat.sh
