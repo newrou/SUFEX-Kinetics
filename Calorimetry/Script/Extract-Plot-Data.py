@@ -38,8 +38,9 @@ for line in sys.stdin :
 
 minHf = min(mHf)
 
+print('Time, s; Heat flow, Watt')
 for i in range(len(mT)) :
-	print('%.11f, %.14e' % (mT[i], mHf[i]-minHf ))
+	print('%.11f; %.14e' % (mT[i], mHf[i]-minHf ))
 
 #	m = re.findall(r'\@[a-zA-Z-]+\d\d\d\d', s)
 #	m = re.findall(r'\@[a-zA-Z0-9-~+]+', s)
