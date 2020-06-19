@@ -7,12 +7,13 @@ echo "<h3><a href="../index.html">Kinetics of SUFEX Reaction</a></h3>" >> index.
 echo "<h4>Kinetic models of SUFEX reactions:</h4>" >> index.html
 
 echo "<ul>" >> index.html
-list=`find . -type d -maxdepth 1 -mindepth 1 -printf "%f\n" | sort`
+list=`find . -maxdepth 1 -mindepth 1 -type d -printf "%f\n" | sort`
 for i in $list
 do
   echo " <li><a href=\"$i\">$i</a></li>" >> index.html
   cd $i
   ./make-index.sh
+  cd ..
 done
 echo "</ul>" >> index.html
 

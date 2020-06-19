@@ -12,23 +12,30 @@ echo "<h4><a href=\"Model/index.html\">Kinetic models of SUFEX reactions</a></h4
 echo "<h4><a href=\"Order/index.html\">Study of the order of SUFEX reactions</a></h4>" >> index.html
 
 #echo "<ul>" >> index.html
-list=`find .  -maxdepth 1 -mindepth 1 -type d -printf "%f\n" | sort`
+#list=`find . -maxdepth 1 -mindepth 1 -printf "%f\n" -type d | sort`
+#list=`ls -d */`
+list=`find . -maxdepth 1 -mindepth 1 -type d -printf "%f\n" | sort`
 for i in $list
 do
 #  echo " <li><a href=\"$i/index.html\">$i</a></li>" >> index.html
+#  name=${i%%/}
+  echo $i
   cd $i
+#  ls
   ./make-index.sh
+  cd ..
 done
 #echo "</ul>" >> index.html
 
-echo "<ul>" >> index.html
-list=`ls *.svg`
-for i in $list
-do
-  name=`basename $i .svg`
-  echo " <li><a href=\"$name.svg\">$name</a> <a href=\"$name.csv\">dat</a></li>" >> index.html
-done
-echo "</ul>" >> index.html
+#echo "<ul>" >> index.html
+#list=`ls *.svg`
+#for i in $list
+#do
+#  name=`basename $i .svg`
+#  echo $name
+#  echo " <li><a href=\"$name.svg\">$name</a> <a href=\"$name.csv\">dat</a></li>" >> index.html
+#done
+#echo "</ul>" >> index.html
 
 echo "</body>" >> index.html
 echo "</html>" >> index.html
