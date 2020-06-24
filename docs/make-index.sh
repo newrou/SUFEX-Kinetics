@@ -10,6 +10,7 @@ echo "<h4><a href=\"Stat/index.html\">Reproducibility of calorimetric studies of
 echo "<h4><a href=\"Change-T/index.html\">The effect of temperature on the kinetics of SUFEX reactions</a></h4>" >> index.html
 echo "<h4><a href=\"Model/index.html\">Kinetic models of SUFEX reactions</a></h4>" >> index.html
 echo "<h4><a href=\"Order/index.html\">Study of the order of SUFEX reactions</a></h4>" >> index.html
+echo "<h4><a href=\"MS/index.html\">Investigation of the SOFEX reaction by mass spectrometry</a></h4>" >> index.html
 
 #echo "<ul>" >> index.html
 #list=`find . -maxdepth 1 -mindepth 1 -printf "%f\n" -type d | sort`
