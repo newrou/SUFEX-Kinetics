@@ -29,16 +29,12 @@ set linestyle 6 lt 6 lw 2
 set linestyle 7 lt 7 lw 2
 
 
-set output "SUFEX-Stage1-T20.svg"
-set xrange [0:40]
+set output "r.svg"
+#set xrange [0:40]
 #set key samplen -1 spacing 1.3 font ",26" box lw 0
 #set nokey
 plot \
-     "SuFEx-R1-BSF-T20-6-8-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti "DCM+BSF+DBU+PhOH", \
-     "SuFEx-R1-BSF-T20-6-10-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti "DCM+BSF+DBU+PhOH", \
-     "BSF-DBU-6-25-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 2 ti "DCM+BSF+DBU", \
-     "BSF-DBU-7-3-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 2 ti "DCM+BSF+DBU", \
-     "DCM-2-14-19.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "DCM"
+     "r.csv" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti ""
 
 quit
-     "BSF-DBU-6-29-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 2 ti "DCM+BSF+DBU", \
+SuFEx-R1-BSF-T20-6-10-20.csv SuFEx-R1-BSF-T20-6-8-20.csv
