@@ -1,0 +1,80 @@
+[1] "Exp-Zero"       "4.379935e-05"   "-2.964468e-05"  "2.090860e+04"  
+[5] "1.683561e-04"   "SUFEX-Model.R0"
+[1] "Quality: 2221 1.152074e-07"
+[1] 1.152074e-07
+[1] "Nelder-Mead Opt"
+[1] "Result: "
+[1]  4.167305e-05 -2.813861e-05  2.160782e+04  1.852099e-04
+[1] "Quality: 2221 1.860985e-07"
+[1] 1.860985e-07
+[1] "BFGS OPT"
+initial  value 0.000002 
+iter  10 value 0.000000
+iter  10 value 0.000000
+final  value 0.000000 
+converged
+[1] "Result: "
+[1]  4.204793e-05 -2.845073e-05  2.171265e+04  1.848988e-04
+[1] "Quality: 2221 1.785224e-07"
+[1] 1.785224e-07
+[1] "SANN Opt"
+sann objective function values
+initial       value 0.000000
+iter     1000 value 0.000000
+iter     2000 value 0.000000
+iter     3000 value 0.000000
+iter     4000 value 0.000000
+iter     5000 value 0.000000
+iter     6000 value 0.000000
+iter     7000 value 0.000000
+iter     8000 value 0.000000
+iter     9000 value 0.000000
+iter    10000 value 0.000000
+iter    11000 value 0.000000
+iter    12000 value 0.000000
+iter    13000 value 0.000000
+iter    14000 value 0.000000
+iter    15000 value 0.000000
+iter    16000 value 0.000000
+iter    17000 value 0.000000
+iter    18000 value 0.000000
+iter    19000 value 0.000000
+iter    20000 value 0.000000
+iter    21000 value 0.000000
+iter    22000 value 0.000000
+iter    23000 value 0.000000
+iter    24000 value 0.000000
+iter    25000 value 0.000000
+iter    26000 value 0.000000
+iter    27000 value 0.000000
+iter    28000 value 0.000000
+iter    29000 value 0.000000
+iter    30000 value 0.000000
+iter    31000 value 0.000000
+iter    32000 value 0.000000
+iter    33000 value 0.000000
+iter    34000 value 0.000000
+iter    35000 value 0.000000
+iter    36000 value 0.000000
+iter    37000 value 0.000000
+iter    38000 value 0.000000
+iter    39000 value 0.000000
+iter    40000 value 0.000000
+iter    41000 value 0.000000
+iter    42000 value 0.000000
+iter    43000 value 0.000000
+iter    44000 value 0.000000
+iter    45000 value 0.000000
+iter    46000 value 0.000000
+iter    47000 value 0.000000
+iter    48000 value 0.000000
+iter    49000 value 0.000000
+iter    49999 value 0.000000
+final         value 0.000000
+sann stopped after 49999 iterations
+[1] "Result: "
+[1]  4.400244e-05 -2.972418e-05  2.103924e+04  1.616086e-04
+[1] "Quality: 2221 1.665735e-07"
+[1] 1.665735e-07
+null device 
+          1 
