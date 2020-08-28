@@ -44,19 +44,6 @@ plot \
      "SuFEx-R1-BSF-T30-5-21-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "30°", \
      "SuFEx-R1-BSF-T30-5-22-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "30°"
 
-set output "SUFEX-Change-T-BSF-NO2.svg"
-set title "SUFEX BSF-NO2 - change T"
-set xrange [0:40]
-#set key samplen -1 spacing 1.3 font ",26" box lw 0
-#set nokey
-plot \
-     "SuFEx-R1-BSF-NO2-T20-6-13-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 2 ti "20°", \
-     "SuFEx-R1-BSF-NO2-T20-6-15-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 2 ti "20°", \
-     "SuFEx-R1-BSF-NO2-T25-2-10-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 3 ti "25°", \
-     "SuFEx-R1-BSF-NO2-T25-2-12-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 3 ti "25°", \
-     "SuFEx-R1-BSF-NO2-T30-5-26-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "30°", \
-     "SuFEx-R1-BSF-NO2-T30-5-29-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "30°"
-
 set output "SUFEX-Change-T-BSF-Me.svg"
 set title "SUFEX BSF-Me - change T"
 set xrange [0:40]
@@ -70,8 +57,32 @@ plot \
      "SuFEx-R1-BSF-CH3-T30-6-1-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "30°", \
      "SuFEx-R1-BSF-CH3-T30-6-3-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "30°"
 
+set output "SUFEX-Change-T-BSF-NO2.svg"
+set title "SUFEX BSF-NO2 - change T"
+set xrange [0:40]
+#set key samplen -1 spacing 1.3 font ",26" box lw 0
+#set nokey
+plot \
+     "SuFEx-R1-BSF-NO2-T20-6-13-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 2 ti "20°", \
+     "SuFEx-R1-BSF-NO2-T20-6-15-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 2 ti "20°", \
+     "SuFEx-R1-BSF-NO2-T25-2-10-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 3 ti "25°", \
+     "SuFEx-R1-BSF-NO2-T25-2-12-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 3 ti "25°", \
+     "SuFEx-R1-BSF-NO2-T30-5-26-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "30°", \
+     "SuFEx-R1-BSF-NO2-T30-5-29-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "30°"
+
+set output "SUFEX-Change-T-BSF-NO2-Sum.svg"
+set title "SUFEX BSF-NO2 - change T"
+set xrange [0:40]
+#set key samplen -1 spacing 1.3 font ",26" box lw 0
+#set nokey
+plot \
+     "Sum-BSF-NO2-T20.dat" using (($1)/3600):(1000*($2)) with lines linestyle 2 ti "20°", \
+     "Sum-BSF-NO2-T25.dat" using (($1)/3600):(1000*($2)) with lines linestyle 3 ti "25°", \
+     "Sum-BSF-NO2-T30.dat" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "30°", \
+
 quit
 
 
 
 
+  

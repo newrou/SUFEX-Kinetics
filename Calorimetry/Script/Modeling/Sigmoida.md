@@ -1,0 +1,1 @@
+$$P=C+A\cdot(\frac{1}{2}+\frac{1}{1+e^{(t_c-t)\cdot k}})$$

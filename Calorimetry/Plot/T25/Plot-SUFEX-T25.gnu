@@ -45,12 +45,26 @@ plot \
      "SuFEx-R1-BSF-CH3-2-25-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 3 ti "BSF-Me", \
      "SuFEx-R1-BSF-NO2-T25-2-10-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "BSF-NO2", \
      "SuFEx-R1-BSF-NO2-T25-2-12-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "BSF-NO2"
+
+
+set output "SUFEX-T25-Sum.svg"
+#set xrange [0:40]
+#set key samplen -1 spacing 1.3 font ",26" box lw 0
+#set nokey
+plot \
+     "Sum-BSF-T25.dat" using (($1)/3600):(1000*($2)) with lines linestyle 2 ti "BSF", \
+     "Sum-BSF-CH3-T25.dat" using (($1)/3600):(1000*($2)) with lines linestyle 3 ti "BSF-Me", \
+     "Sum-BSF-NO2-T25.dat" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "BSF-NO2", \
+
+
+set output "SUFEX-T25-Sum-Zero.svg"
+#set xrange [0:40]
+#set key samplen -1 spacing 1.3 font ",26" box lw 0
+#set nokey
+plot \
+     "BSF-Zero-T25.dat" using (($1)/3600):(1000*($2)) with lines linestyle 2 ti "BSF", \
+     "BSF-CH3-Zero-T25.dat" using (($1)/3600):(1000*($2)) with lines linestyle 3 ti "BSF-Me", \
+     "BSF-NO2-Zero-T25.dat" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "BSF-NO2", \
+
+
 quit
-
-
-
-
-
-
-
-
