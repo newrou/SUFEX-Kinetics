@@ -100,6 +100,16 @@ labels = c("A", "B", "C", "D", "E")
 colors = c("black", "gray", "green", "blue", "red")
 legend(location, labels, title = main, fill=colors)
 
+yrange <- range(mv1, mv2, mv3)
+plot(mt, mv3, type="l", xlab = "t, s", ylab = "v, mol*l/s", col="red", main="SUFEX Heat flow", lwd=3, ylim = yrange, cex.lab = 0.9, cex.axis = 0.9, cex.main = 0.9, cex.sub = 0.9, pch=0.5)
+lines(mt, mv1, col="green", lwd=2)
+lines(mt, mv2, col="blue", lwd=2)
+main = "v"
+location = "topright"
+labels = c("v3", "v1", "v2")
+colors = c("red", "green", "blue")
+legend(location, labels, title = main, fill=colors)
+
 yrange <- range(mP, mP1, mP2, mP3)
 plot(mt, mP, type="l", xlab = "t, s", ylab = "P, Watt", col="red", main="SUFEX Heat flow", lwd=3, ylim = yrange, cex.lab = 0.9, cex.axis = 0.9, cex.main = 0.9, cex.sub = 0.9, pch=0.5)
 lines(mt, mP1, col="green", lwd=2)
