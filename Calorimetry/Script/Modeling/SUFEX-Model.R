@@ -28,7 +28,7 @@ test_myf <- function(x, caption) {
     dQ <- flow[i]-mf[i]
     Q <- Q + dQ*dQ;
   }
- Q <- Q*1.0e6/n
+ Q <- Q*1.0e3/n
  print( sprintf("Quality: %d %e", n, Q ) )
  cap <- sprintf("%s [%.3e %.3e %.3e %.3e] (Quality: %.3e)", caption, C, A, xc, k, Q )
  yrange <- range(td$Heat_flow, mf)
@@ -60,7 +60,7 @@ myf <- function(x) {
     dQ <- flow[i]-mf[i]
     Q <- Q + dQ*dQ;
   }
- Q <- Q*1.0e6/n
+ Q <- Q*1.0e3/n
  return(Q)
 }
 
@@ -75,8 +75,7 @@ ControlPar <- list(trace=0, maxit=30000, reltol=1e-18, abstol=1e-18)
 "Result: "; r1$par
 test_myf(r1$par, "Nelder-Mead Opt")
 
-#ControlPar <- list(trace=1, maxit=30000, eltol=1e-12, abstol=1e-12)
-ControlPar <- list(trace=1, maxit=30000, reltol=1e-18, abstol=1e-18)
+ControlPar <- list(trace=1, maxit=30000, eltol=1e-18, abstol=1e-18)
 "BFGS OPT"; r2 <- optim(sapply(par0, krnd), myf, NULL, method = "BFGS", hessian = TRUE, control=ControlPar)
 "Result: "; r2$par
 test_myf(r2$par, "BFGS Opt")
