@@ -106,7 +106,8 @@ plot \
      "DCM-T15-9-26-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 6 ti "DCM-T15-9-26-20", \
      "DCM-T15-9-28-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 7 ti "DCM-T15-9-28-20", \
      "DCM-T15-9-30-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 8 ti "DCM-T15-9-30-20", \
-     "DCM-T15.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti "Sum"
+     "DCM-T15.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 lc rgb "red" ti "Int", \
+     "DCM-T15-old.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti "Sum"
 
 
 set output "Zero-T20.svg"
@@ -121,7 +122,8 @@ plot \
      "DCM-T20-9-19-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 6 ti "DCM-T20-9-19-20", \
      "DCM-T20-9-21-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 7 ti "DCM-T20-9-21-20", \
      "DCM-T20-9-23-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 8 ti "DCM-T20-9-23-20", \
-     "DCM-T20.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti "Sum"
+     "DCM-T20.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 lc rgb "red" ti "Int", \
+     "DCM-T20-old.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti "Sum"
 
 
 set output "Zero-T25.svg"
@@ -135,7 +137,8 @@ plot \
      "DCM-T25-8-18-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 5 ti "DCM-T25-8-18-20", \
      "DCM-T25-8-22-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 6 ti "DCM-T25-8-22-20", \
      "DCM-T25-8-24-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 7 ti "DCM-T25-8-24-20", \
-     "DCM-T25.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti "Sum Zero"
+     "DCM-T25.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 lc rgb "red" ti "Int", \
+     "DCM-T25-old.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti "Sum"
 
 
 set output "Zero-T30.svg"
@@ -148,7 +151,8 @@ plot \
      "DCM-T30-9-13-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 4 ti "DCM-T30-9-13-20", \
      "DCM-T30-9-7-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 5 ti "DCM-T30-9-7-20", \
      "DCM-T30-9-8-20.csv" using (($1)/3600):(1000*($2)) with lines linestyle 6 ti "DCM-T30-9-8-20", \
-     "DCM-T30.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti "Sum zero"
+     "DCM-T30.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 lc rgb "red" ti "Int", \
+     "DCM-T30-old.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti "Sum"
 
 
 
