@@ -69,7 +69,7 @@ plot \
 
 set output "Compare-T15.svg"
 set title "Compare T15" 
-set xrange [0:50]
+set xrange [5:50]
 set key
 plot \
      "BSF-DCM-T15.dat" using (($1)/3600):(1000*($2)) with lines linestyle 1 ti "BSF - DCM", \
