@@ -16,7 +16,7 @@ echo "C; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+N
 ./cat-ms-dat.py L12 $d/Calib-C13H12SO3-L12-pos-i5-v[1-5].sum >> Calibr-MePhO2SOPh.csv
 
 echo "; v1; ; ; ; v2; ; ; ; v3; ; ; ; v4; ; ; ; v5; ; ; ;" > MePhO2SOPh-v1-v5.csv
-echo "C; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum;" >> MePhO2SOPh-v1-v5.csv
+echo "t; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum;" >> MePhO2SOPh-v1-v5.csv
 ./cat-ms-dat.py 0 $d/Me-RD-m-pos-i5-v[1-5].sum >> MePhO2SOPh-v1-v5.csv
 ./cat-ms-dat.py 30 $d/Me-RD-30s-pos-i5-v[1-5].sum >> MePhO2SOPh-v1-v5.csv
 ./cat-ms-dat.py 60 $d/Me-RD-1m-pos-i5-v[1-5].sum >> MePhO2SOPh-v1-v5.csv
@@ -35,7 +35,7 @@ echo "C; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+N
 
 #MePhO2SOPh-T0-10m-pos-ACN85-i5-v1.sum 
 echo "; v1; ; ; ; v2; ; ; ;" > MePhO2SOPh-v1-v2.csv
-echo "C; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum;" >> MePhO2SOPh-v1-v2.csv
+echo "t; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum;" >> MePhO2SOPh-v1-v2.csv
 ./cat-ms-dat.py 30 $d/MePhO2SOPh-T0-30s-pos-ACN85-i5-v[1-2].sum >> MePhO2SOPh-v1-v2.csv
 ./cat-ms-dat.py 60 $d/MePhO2SOPh-T0-1m-pos-ACN85-i5-v[1-2].sum >> MePhO2SOPh-v1-v2.csv
 ./cat-ms-dat.py 150 $d/MePhO2SOPh-T0-2_5m-pos-ACN85-i5-v[1-2].sum >> MePhO2SOPh-v1-v2.csv
@@ -52,7 +52,7 @@ echo "C; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum;" >> MePhO2SOPh-v1-v2.csv
 ./cat-ms-dat.py 1800 $d/MePhO2SOPh-T0-30m-pos-ACN85-i5-v[1-2].sum >> MePhO2SOPh-v1-v2.csv
 
 echo "; v1; ; ; ; v2; ; ; ; v3; ; ; ; v4; ; ; ; v5; ; ; ;" > MePhO2SOPh-v1-v5-n.csv
-echo "C; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum;" >> MePhO2SOPh-v1-v5-n.csv
+echo "t; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum; M+H; M+Na; M+K; Sum;" >> MePhO2SOPh-v1-v5-n.csv
 ./cat-ms-dat.py 0 $d/MePhSO3Ph-m-pos-i5-v[1-5].sum >> MePhO2SOPh-v1-v5-n.csv
 ./cat-ms-dat.py 30 $d/MePhSO3Ph-30s-pos-i5-v[1-5].sum >> MePhO2SOPh-v1-v5-n.csv
 ./cat-ms-dat.py 60 $d/MePhSO3Ph-1m-pos-i5-v[1-5].sum >> MePhO2SOPh-v1-v5-n.csv
