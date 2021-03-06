@@ -1,1 +1,1 @@
-/home/papa/ScienceWork/SUFEX-Kinetics/MS/Integrate/csv2xlsx.sh
+../csv2xlsx.sh

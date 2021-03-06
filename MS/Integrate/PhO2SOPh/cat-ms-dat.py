@@ -1,1 +1,1 @@
-/home/papa/ScienceWork/SUFEX-Kinetics/MS/Integrate/cat-ms-dat.py
+../cat-ms-dat.py
