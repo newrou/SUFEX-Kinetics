@@ -57,7 +57,7 @@ test_myf <- function(x, caption) {
   }
 
  print( sprintf("Quality: %d %e %f", n, Q, -log10(Q) ) )
- cap <- sprintf("%s [%.2e] (Q: %.2e pQ:%.6f)", caption, k, Q, -log10(Q))
+ cap <- sprintf("First order reaction [k=%.2e] (Q: %.2e pQ:%.2f)", k, Q, -log10(Q))
 # yrange <- range(mP, td$Heat_flow)
  yrange <- range(td$C)
  plot(tm/3600, mExp, type="p", xlab = "t, h", ylab = "C", col="black", main=cap, lwd=2, ylim = yrange, cex.lab = 0.9, cex.axis = 0.9, cex.main = 0.9, cex.sub = 0.9, pch=0.5)
@@ -65,9 +65,9 @@ test_myf <- function(x, caption) {
 # lines(mt/3600, mA, col="green", lwd=2)
  main = "C"
  location = "topleft"
- labels = c("Experimental", "Model 1P")
+ labels = c("Experimental", "Model")
  colors = c("black", "orange")
- legend(location, labels, title = main, fill=colors)
+ legend(location, labels, fill=colors)
 
  return(Q)
 }

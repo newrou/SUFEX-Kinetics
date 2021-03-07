@@ -11,6 +11,14 @@
 ./start-R.sh Model-1P.R PhO2SOPh-v1-v3 7.85e-04
 ./start-R.sh Model-1P.R PhO2SOPh-v1-v5 7.85e-04
 
+list=`ls *.pdf`
+for i in *-1P.pdf
+do
+    name=`basename $i .pdf`
+    echo "[$name]"
+    qpdf --empty --pages $i z -- $name-opt.pdf
+done
+
 #atril Exp-Zero.pdf
 
 #qpdf --empty --pages BSF-NO2-DCM-T20-1P.pdf z -- BSF-NO2-DCM-T20-1P-opt.pdf
