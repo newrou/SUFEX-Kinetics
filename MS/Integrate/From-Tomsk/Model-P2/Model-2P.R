@@ -11,8 +11,9 @@ pdf(paste0(fname, "-2P.pdf"), family="NimbusSan", encoding="KOI8-R.enc")
 myf <- function(x) {
  k <- abs(x[1])
  tm <- as.array(td$t)
- mExp <- as.array(td$C)
- A0 <- max(mExp)
+ mExp <- 300*as.array(td$C)
+# A0 <- max(mExp)
+ A0 <- 0.05
  C0 <- 0.0
  Q <- 0.0
  n <- length(tm)
@@ -31,8 +32,9 @@ test_myf <- function(x, caption) {
  Q <- myf(x)
  k <- abs(x[1])
  tm <- as.array(td$t)
- mExp <- as.array(td$C)
- A0 <- max(mExp)
+ mExp <- 300*as.array(td$C)
+# A0 <- max(mExp)
+ A0 <- 0.05
  C0 <- 0.0
 
  n <- length(tm)*100
@@ -59,7 +61,7 @@ test_myf <- function(x, caption) {
  print( sprintf("Quality: %d %e %f", n, Q, -log10(Q) ) )
  cap <- sprintf("Second order reaction [k=%.2e] (Q: %.2e pQ:%.2f)", k, Q, -log10(Q))
 # yrange <- range(mP, td$Heat_flow)
- yrange <- range(td$C)
+ yrange <- range(mExp, mC)
  plot(tm/3600, mExp, type="p", xlab = "t, h", ylab = "C", col="black", main=cap, lwd=2, ylim = yrange, cex.lab = 0.9, cex.axis = 0.9, cex.main = 0.9, cex.sub = 0.9, pch=0.5)
  lines(mt/3600, mC, type="l", col="orange", lwd=2)
 # lines(mt/3600, mA, col="green", lwd=2)
