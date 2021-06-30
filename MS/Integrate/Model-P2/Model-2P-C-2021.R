@@ -62,7 +62,7 @@ test_myf <- function(x, caption) {
   }
 
  print( sprintf("Quality: %d %e %f", n, Q, -log10(Q) ) )
- cap <- sprintf("Second order reaction [k=%.2e  C0=%.6f] (Q: %.2e pQ:%.2f)", k, Q, -log10(Q))
+ cap <- sprintf("Second order reaction [k=%.2e  C0=%.6f] (Q: %.2e pQ:%.2f)", k, A0, Q, -log10(Q))
 # yrange <- range(mP, td$Heat_flow)
  yrange <- range(mExp, mC)
  plot(tm/3600, mExp, type="p", xlab = "t, h", ylab = "C", col="black", main=cap, lwd=2, ylim = yrange, cex.lab = 0.9, cex.axis = 0.9, cex.main = 0.9, cex.sub = 0.9, pch=0.5)
@@ -81,7 +81,7 @@ test_myf <- function(x, caption) {
 krnd <- function(x) { runif(1, x-0.05*abs(x), x+0.05*abs(x)) }
 
 print(td);
-par0 <- c(p_k)
+par0 <- c(p_k, p_C)
 print(par0);
 test_myf(par0, "Test")
 
