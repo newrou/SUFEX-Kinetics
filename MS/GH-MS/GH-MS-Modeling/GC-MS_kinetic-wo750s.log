@@ -1,0 +1,126 @@
+[1] "GC-MS_kinetic-wo750s" "7.85e-04"             "0.025"               
+[4] "Model-2P-C-2021.R0"   "Model-2P-C-2021.R1"   "Model-2P-C-2021.R2"  
+      t        C
+1    30 0.005023
+2    60 0.005116
+3   150 0.007527
+4   240 0.010662
+5   300 0.009897
+6   450 0.011732
+7   540 0.013821
+8   600 0.014171
+9   900 0.017306
+10 1050 0.018108
+11 1200 0.018669
+[1] 0.000785 0.025000
+[1] "Quality: 1100 1.320515e-02 1.879257"
+[1] 0.01320515
+Nelder-Mead Opt
+pQ0=1.879e+00
+
+Step1  Qn=1.347e-03  pQn=2.870691  pQmin=1.879257
+[1] "Quality: 1100 1.346818e-03 2.870691"
+  pQ=2.870691  Q=1.347e-03  dQ=0.011858  [1] 0.14737776 0.02240995
+Step2  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step3  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step4  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+[1] "Quality: 1100 1.346818e-03 2.870691"
+  pQ=2.870691  Q=1.347e-03  dQ=0.000000  [1] 0.14737777 0.02240995
+Step5  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step6  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step7  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step8  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step9  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step10  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step11  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step12  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step13  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step14  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step15  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step16  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step17  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step18  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step19  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step20  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step21  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step22  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step23  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step24  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step25  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step26  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step27  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step28  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step29  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step30  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step31  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step32  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step33  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step34  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step35  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step36  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step37  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step38  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step39  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step40  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step41  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step42  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step43  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step44  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step45  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step46  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step47  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step48  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step49  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step50  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step51  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step52  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step53  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step54  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step55  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step56  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step57  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step58  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step59  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step60  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step61  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step62  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step63  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step64  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step65  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step66  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step67  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step68  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step69  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step70  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step71  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step72  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step73  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step74  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step75  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step76  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step77  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step78  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step79  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step80  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step81  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step82  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step83  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step84  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step85  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step86  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step87  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step88  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step89  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step90  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step91  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step92  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step93  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step94  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step95  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step96  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step97  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step98  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step99  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+Step100  Qn=1.347e-03  pQn=2.870691  pQmin=2.870691
+null device 
+          1 
